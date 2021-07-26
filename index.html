@@ -6,29 +6,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<h1>Goia Catalin-Ionut</h1>
-<p>Frontend Developer</p>
-<img src="poza.png" alt="">
-<h2>
-    Summary
-</h2>
-<p>
-    Student at "Babeș-Bolyai” University, Faculty of Mathematics and Computer Science
-</p>
-<p>
-    Deeply passionate about technology and programming
-</p>
-<p>
-    Eager and committed to experience and learn new things, with fast learning, problem-solving and critical thinking
-    skills
-</p>
-<p>
-    Friendly person, excited to be part of a group of people with the same interests as me.
-</p>
 
 <body>
+    <header>
+        <div>
+            <nav>
+                <a href="#about">ABOUT</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>Goia Catalin-Ionut</h1>
+            <p>Frontend Developer</p>
+            <img src="poza.png" alt="" style="width:200px;">
+            <div><a href="C:/Users/Goia%20Catalin/Desktop/CV-web/Catalin-Ionut%20Goia_CV.pdf" download="CV">
+                    Download CV
+                </a>
+            </div>
 
+        </div>
+        <div id="about">
+            <h2>
+                About
+            </h2>
+            <p>
+                Student at "Babeș-Bolyai” University, Faculty of Mathematics and Computer Science
+            </p>
+            <p>
+                Deeply passionate about technology and programming
+            </p>
+            <p>
+                Eager and committed to experience and learn new things, with fast learning, problem-solving and critical
+                thinking
+
+                skills
+            </p>
+            <p>
+                Friendly person, excited to be part of a group of people with the same interests as me.
+            </p>
+        </div>
+        <div id="education">
+            <h2>
+                Education
+            </h2>
+            <div>
+                <h3>
+                    University
+                </h3>
+                <p>2019 - present</p>
+            </div>
+            <div>
+                <p>"Babeș-Bolyai” University, Faculty of Mathematics and Computer Science, Cluj-Napoca</p>
+                <p>Bachelor's degree, Mathematics and Computer Science </p>
+            </div>
+            <div>
+                <h3>
+                    High school
+                </h3>
+                <p>2015 - 2019</p>
+            </div>
+            <div>
+                <p>Liceul Teoretic "Avram Iancu" Cluj-Napoca</p>
+                <p>Mathematics and Computer Science, Computer Science intensive </p>
+            </div>
+        </div>
+
+
+        <div id="skills">
+            <h2>
+                Skills
+            </h2>
+            <div class="container">
+                <div class="left-container">
+                    <div>
+                        <h3>
+                            Hard Skills and Technologies
+                        </h3>
+                    </div>
+                    <div>
+                        <p>Python - OOP, Data Analysis(pandas, numpy,
+                            matplotlib, seaborn), Machine Learning
+                            (scikit-learn), Automation( Selenium)
+                            Java - OOP
+                            C++ - OOP
+                            Android( Java and XML)
+                            mySQL
+                            Oracle Database
+                        </p>
+                    </div>
+                </div>
+                <div class="right-container">
+                <div>
+                    <h3>
+                        Soft Skills
+                    </h3>
+                </div>
+                    <div>
+                        <p>Fast learner
+                            Critical thinking
+                            Problem-solving
+                            Teamwork
+                            Open-mindedness and
+                            adaptability
+                            Empathy
+                            Punctuality
+                            Ability to work under
+                            pressure </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <h2>
+                Contact
+            </h2>
+            <div>
+                <div class="container">
+                    <div class="left-container">
+                        <h4>Feel free to contact me</h4>
+                        <form>
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div>
+                                <label for="subject">Subject</label>
+                                <input type="subject" id="subject" name="subject">
+                            </div>
+                            <div>
+                                <label for="message">Your message:</label><br>
+
+                                <textarea id="message" name="message" rows="4" cols="50"
+                                    placeholder="Write your message here"></textarea>
+                            </div>
+                            <div>
+                                <button type="button">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="right-container">
+                        <h4>CONTACT INFO</h4>
+                        <strong>Phone Number</strong>
+                        <p>+40743530034</p>
+                        <strong>Email</strong>
+                        <p>catalin.goia1@gmail.com</p>                 
+                        <strong>Address</strong>
+                        Calea Mănăștur 85, ap 73,
+                        Cluj-Napoca, Cluj, Romania
+                        <!--TODO Buttons for LinkedIn Facebook Instagram-->
+                    </div>
+                </div>
+            </div>
+    </main>
 </body>
 
 </html>
