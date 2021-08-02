@@ -57,11 +57,7 @@ h2 {
   padding-right: px;
   background-color: #5b9279;
   text-align: right;
-  justify-content: space;
   padding-right: 30px;
-}
-ul#horizontal-list {
-  list-style: none;
 }
 ul#horizontal-list li {
   display: inline-block;
@@ -72,13 +68,9 @@ ul#horizontal-list li a {
   text-align: center;
   width: 140px;
   padding: 18px 13px;
-  font-weight: 500;
-  background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
-  position: relative;
   display: inline-block;
-  transition: all 0.3s ease;
 }
 ul#horizontal-list li a:hover {
   box-shadow: -7px -7px 20px 0px #5b9279, -4px -4px 5px 0px #5b9279,
@@ -93,7 +85,7 @@ main {
   padding-top: 70px;
 }
 .name_job_photo {
-  margin-top: 95px;
+  margin-top: 15px;
   font-size: 20px;
   color: white;
   padding: 70px;
@@ -174,7 +166,8 @@ input {
   padding-top: 20px;
 }
 .txt_area_title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  margin: 0;
 }
 button {
   background: #2d8a49;
@@ -188,6 +181,7 @@ button {
   border: rgb(12, 63, 25);
   transition: all 0.3s linear;
   border-radius: 24px;
+  margin-top: 10px;
 }
 button:hover {
   background: #09b2b8;
