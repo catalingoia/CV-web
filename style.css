@@ -1,3 +1,201 @@
-.container{
-    display:flex;
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f8f5f4;
+}
+html {
+  scroll-behavior: smooth;
+}
+.big_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 33%;
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+  padding: 60px;
+  background-color: #aeddb7;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 0px;
+}
+h2 {
+  margin: 0;
+  font-size: 35px;
+}
+.solo-heading {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.first-container {
+  width: 66%;
+  margin-bottom: 65px;
+}
+
+.second-container {
+  width: 66%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 6px;
+  padding-right: px;
+  background-color: #5b9279;
+  text-align: right;
+  justify-content: space;
+  padding-right: 30px;
+}
+ul#horizontal-list {
+  list-style: none;
+}
+ul#horizontal-list li {
+  display: inline-block;
+}
+ul#horizontal-list li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 140px;
+  padding: 18px 13px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+ul#horizontal-list li a:hover {
+  box-shadow: -7px -7px 20px 0px #5b9279, -4px -4px 5px 0px #5b9279,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  padding-top: 70px;
+}
+.name_job_photo {
+  margin-top: 95px;
+  font-size: 20px;
+  color: white;
+  padding: 70px;
+  background-color: #8fcb9b;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 60%;
+}
+#name {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#download {
+  background: #2d8a49;
+  line-height: 60px;
+  width: 200px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border: rgb(12, 63, 25);
+  transition: all 0.3s linear;
+  border-radius: 24px;
+}
+#download:hover {
+  background: #09b2b8;
+}
+.jumptarget::before {
+  content: "";
+  display: block;
+  height: 100px; /* fixed header height*/
+}
+
+#contact {
+  margin-bottom: 150px;
+}
+.schools {
+  margin: 0;
+}
+.years {
+  margin: 5px;
+  font-size: 17px;
+  font-style: italic;
+}
+.speciality {
+  font-size: 19px;
+  font-style: italic;
+}
+input {
+  border: none;
+  border-bottom: 2px solid rgb(61, 61, 61);
+  background-color: #aeddb7;
+  text-align: left;
+  padding: 15px;
+}
+::-webkit-input-placeholder {
+  text-align: left;
+}
+.txt_area {
+  padding-top: 20px;
+}
+.txt_area_title {
+  padding-bottom: 30px;
+}
+button {
+  background: #2d8a49;
+  line-height: 30px;
+  width: 100px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border: rgb(12, 63, 25);
+  transition: all 0.3s linear;
+  border-radius: 24px;
+}
+button:hover {
+  background: #09b2b8;
+}
+.right-container strong {
+  font-size: 17px;
+}
+
+#contact .right-container p {
+  font-size: 15px;
 }

@@ -1,173 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
     <header>
-        <div>
-            <nav>
-                <a href="#about">ABOUT</a>
-                <a href="#education">EDUCATION</a>
-                <a href="#skills">SKILLS</a>
-                <a href="#contact">CONTACT</a>
-            </nav>
-        </div>
+      <div>
+        <nav class="navbar">
+          <ul id="horizontal-list">
+            <li><a href="#download">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        <div>
-            <h1>Goia Catalin-Ionut</h1>
-            <p>Frontend Developer</p>
-            <img src="poza.png" alt="" style="width:200px;">
-            <div><a href="C:/Users/Goia%20Catalin/Desktop/CV-web/Catalin-Ionut%20Goia_CV.pdf" download="CV">
-                    Download CV
-                </a>
-            </div>
-
+      <div>
+        <div class="name_job_photo">
+          <img src="poza.png" alt="" class="image" />
+          <h1 id="name">Goia Catalin-Ionut</h1>
+          <p id="title">Frontend Developer</p>
+          <a id="download" href="./Catalin-Ionut Goia_CV.pdf" download
+            >Download CV</a
+          >
         </div>
-        <div id="about">
-            <h2>
-                About
-            </h2>
-            <p>
-                Student at "Babeș-Bolyai” University, Faculty of Mathematics and Computer Science
-            </p>
-            <p>
-                Deeply passionate about technology and programming
-            </p>
-            <p>
-                Eager and committed to experience and learn new things, with fast learning, problem-solving and critical
-                thinking
-
-                skills
-            </p>
-            <p>
-                Friendly person, excited to be part of a group of people with the same interests as me.
-            </p>
+      </div>
+      <div class="big_container">
+        <div class="container" id="about">
+          <div class="left-container card" data-aos="fade-right">
+            <h2>About</h2>
+            <ul class="list">
+              <li>
+                Student at "Babeș-Bolyai” University, Faculty of Mathematics and
+                Computer Science
+              </li>
+              <li>Deeply passionate about technology and programming</li>
+              <li>
+                Eager and committed to experience and learn new things, with
+                fast learning, problem-solving and critical thinking skills
+              </li>
+              <li>
+                Friendly person, excited to be part of a group of people with
+                the same interests as me.
+              </li>
+            </ul>
+          </div>
+          <div class="right-container card" data-aos="fade-left">
+            <h2>Languages</h2>
+            <div>
+              <ul>
+                <li>Romanian - Native Proficiency</li>
+                <li>English - Professional Working Proficiency</li>
+                <li>French - Elementary Proficiency</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div id="education">
-            <h2>
-                Education
-            </h2>
-            <div>
-                <h3>
-                    University
-                </h3>
-                <p>2019 - present</p>
+        <div id="skills" class="jumptarget">
+          <h2 class="solo-heading" data-aos="fade-in">Skills</h2>
+          <div class="container">
+            <div class="left-container card" data-aos="fade-right">
+              <div>
+                <h3>Hard Skills and Technologies</h3>
+              </div>
+              <div>
+                <p>
+                  Python - OOP, Data Analysis(pandas, numpy, matplotlib,
+                  seaborn), Machine Learning (scikit-learn), Automation(
+                  Selenium) Java - OOP C++ - OOP Android( Java and XML) mySQL
+                  Oracle Database
+                </p>
+              </div>
             </div>
-            <div>
-                <p>"Babeș-Bolyai” University, Faculty of Mathematics and Computer Science, Cluj-Napoca</p>
-                <p>Bachelor's degree, Mathematics and Computer Science </p>
+            <div class="right-container card" data-aos="fade-left">
+              <div>
+                <h3>Soft Skills</h3>
+              </div>
+              <div>
+                <p>
+                  Fast learner Critical thinking Problem-solving Teamwork
+                  Open-mindedness and adaptability Empathy Punctuality Ability
+                  to work under pressure
+                </p>
+              </div>
             </div>
-            <div>
-                <h3>
-                    High school
-                </h3>
-                <p>2015 - 2019</p>
+          </div>
+        </div>
+        <div id="education" class="jumptarget">
+          <h2 class="solo-heading" data-aos="fade-in">Education</h2>
+          <div class="column-container">
+            <div class="first-container card" data-aos="fade-in">
+              <div>
+                <h3 class="schools">University</h3>
+                <p class="years">2019 - present</p>
+              </div>
+              <div>
+                <p>
+                  "Babeș-Bolyai” University, Faculty of Mathematics and Computer
+                  Science, Cluj-Napoca
+                </p>
+                <p class="speciality">
+                  Bachelor's degree, Mathematics and Computer Science
+                </p>
+              </div>
             </div>
-            <div>
+            <div class="second-container card" data-aos="fade-in">
+              <div>
+                <h3 class="schools">High school</h3>
+                <p class="years">2015 - 2019</p>
+              </div>
+              <div>
                 <p>Liceul Teoretic "Avram Iancu" Cluj-Napoca</p>
-                <p>Mathematics and Computer Science, Computer Science intensive </p>
+                <p class="speciality">
+                  Mathematics and Computer Science, Computer Science intensive
+                </p>
+              </div>
             </div>
+          </div>
         </div>
 
-
-        <div id="skills">
-            <h2>
-                Skills
-            </h2>
+        <div id="contact" class="jumptarget">
+          <h2 class="solo-heading" data-aos="fade-in">Contact</h2>
+          <div>
             <div class="container">
-                <div class="left-container">
-                    <div>
-                        <h3>
-                            Hard Skills and Technologies
-                        </h3>
-                    </div>
-                    <div>
-                        <p>Python - OOP, Data Analysis(pandas, numpy,
-                            matplotlib, seaborn), Machine Learning
-                            (scikit-learn), Automation( Selenium)
-                            Java - OOP
-                            C++ - OOP
-                            Android( Java and XML)
-                            mySQL
-                            Oracle Database
-                        </p>
-                    </div>
-                </div>
-                <div class="right-container">
-                <div>
-                    <h3>
-                        Soft Skills
-                    </h3>
-                </div>
-                    <div>
-                        <p>Fast learner
-                            Critical thinking
-                            Problem-solving
-                            Teamwork
-                            Open-mindedness and
-                            adaptability
-                            Empathy
-                            Punctuality
-                            Ability to work under
-                            pressure </p>
-                    </div>
-                </div>
+              <div class="left-container card" data-aos="fade-right">
+                <h4>Feel free to contact me</h4>
+                <form class form>
+                  <div>
+                    <label for="name"></label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div>
+                    <label for="email"></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div>
+                    <label for="subject"></label>
+                    <input
+                      type="subject"
+                      id="subject"
+                      name="subject"
+                      placeholder="Subject"
+                    />
+                  </div>
+                  <div class="txt_area">
+                    <label class="txt_area_title" for="message"
+                      >Your message:</label
+                    ><br />
+
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      cols="50"
+                      placeholder="Write your message here"
+                    ></textarea>
+                  </div>
+                  <div>
+                    <button type="button">Send</button>
+                  </div>
+                </form>
+              </div>
+              <div class="right-container card" data-aos="fade-left">
+                <h4>CONTACT INFO</h4>
+                <strong>Phone Number</strong>
+                <p>+40743530034</p>
+                <strong>Email</strong>
+                <p>catalin.goia1@gmail.com</p>
+                <strong>Address</strong>
+                <p>Calea Mănăștur 85, ap 73, Cluj-Napoca, Cluj, Romania</p>
+                <!--TODO Buttons for LinkedIn Facebook Instagram-->
+              </div>
             </div>
+          </div>
         </div>
-        <div id="contact">
-            <h2>
-                Contact
-            </h2>
-            <div>
-                <div class="container">
-                    <div class="left-container">
-                        <h4>Feel free to contact me</h4>
-                        <form>
-                            <div>
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name">
-                            </div>
-                            <div>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email">
-                            </div>
-                            <div>
-                                <label for="subject">Subject</label>
-                                <input type="subject" id="subject" name="subject">
-                            </div>
-                            <div>
-                                <label for="message">Your message:</label><br>
-
-                                <textarea id="message" name="message" rows="4" cols="50"
-                                    placeholder="Write your message here"></textarea>
-                            </div>
-                            <div>
-                                <button type="button">Send</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="right-container">
-                        <h4>CONTACT INFO</h4>
-                        <strong>Phone Number</strong>
-                        <p>+40743530034</p>
-                        <strong>Email</strong>
-                        <p>catalin.goia1@gmail.com</p>                 
-                        <strong>Address</strong>
-                        Calea Mănăștur 85, ap 73,
-                        Cluj-Napoca, Cluj, Romania
-                        <!--TODO Buttons for LinkedIn Facebook Instagram-->
-                    </div>
-                </div>
-            </div>
+      </div>
     </main>
-</body>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
